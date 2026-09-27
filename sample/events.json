@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "cap": 2,
+  "task_error_code": "E_DUP_TASK",
+  "empty_error_code": "E_EMPTY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "queue": [], "dropped": [], "done": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "push", "task": 1 },
+    { "id": 2, "kind": "push", "task": 2 },
+    { "id": 3, "kind": "push", "task": 3 },
+    { "id": 4, "kind": "pop" },
+    { "id": 5, "kind": "push", "task": 4 }
+  ]
+}
